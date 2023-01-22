@@ -1,0 +1,12 @@
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\bin\Debug\Library-Book with Panel.exe.config
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\bin\Debug\Library-Book with Panel.exe
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\bin\Debug\Library-Book with Panel.pdb
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.csproj.AssemblyReference.cache
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.csproj.SuggestedBindingRedirects.cache
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library_Book_with_Panel.Form1.resources
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library_Book_with_Panel.Properties.Resources.resources
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.csproj.GenerateResource.cache
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.csproj.CoreCompileInputs.cache
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.exe
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library-Book with Panel.pdb
+C:\Mycode\CSHARP\Library-Book with Panel\Library-Book with Panel\obj\Debug\Library_Book_with_Panel.Mocks.resources

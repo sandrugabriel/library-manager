@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library_Book_with_Panel.Panel_uri;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,30 @@ namespace Library_Book_with_Panel
         public Form1()
         {
             InitializeComponent();
+
+            this.Controls.Add(new pnlShow());
+        }
+
+        public void removePnl(string pnl)
+        {
+            Control control=null;
+
+            foreach(Control control1 in this.Controls) { 
+            
+                if(control1.Name.Equals(pnl))
+                {
+                    control=control1;
+                }
+
+            }
+
+            this.Controls.Remove(control);
+        }
+
+        private void btnCreateBook_Click(object sender, EventArgs e)
+        {
+            this.Controls.Add(new pnlAddBook());
+            removePnl("pnlShow");
         }
     }
 }
