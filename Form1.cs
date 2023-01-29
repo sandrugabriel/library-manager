@@ -17,7 +17,7 @@ namespace Library_Book_with_Panel
         {
             InitializeComponent();
 
-            this.Controls.Add(new pnlShow());
+            this.Controls.Add(new pnlShow(this));
         }
 
         public void removePnl(string pnl)
@@ -38,7 +38,7 @@ namespace Library_Book_with_Panel
 
         private void btnCreateBook_Click(object sender, EventArgs e)
         {
-            this.Controls.Add(new pnlAddBook());
+            this.Controls.Add(new pnlAddBook(this));
             removePnl("pnlShow");
         }
     }

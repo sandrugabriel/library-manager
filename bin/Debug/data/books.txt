@@ -1,4 +1,14 @@
-1,Armada,Ernest Cline,SF,2015
-2,Emma,Jane Austen,Classic,1815
-3,The Martian,Andy Weir,SF,2014
-4,Ion,Liviu Rebreanu,Classic,1920
+4,Pe aripile vantului,Margaret Mitchell,Literary Fiction,1936
+5,Poezii,Mihai Eminescu,Poetry,1889
+6,Luceafarul,Mihai Eminescu,Poetry,1883
+8,D-ale carnavalului,Caragiale,Comedy,1885
+9,Fata din tren,Paula Hawkins,Thriller,2015
+10,Nu stiu sa iubesc,Sorin Tanase,Comedy,2015
+433,Singur pe lume,Hector Malot,Literary Fiction,1878
+5886,Povestea vietii mele,Helen Keller,Autobiography,1903
+6346,Crima si pedeapsa,Fyodor Dostoevsky,Literary Fiction,1866
+7867,Iubirea la distanta,Ana Blandiana,Poetry,1990
+84567,Invatatorul,Gustave Flaubert,Literary Fiction,1865
+945,Nunta in cer,Elie Wiesel,Literary Fiction,1976
+10346,Arta razboiului,Sun Tzu,Non-Fiction,1970
+493700459,asdas,asda,asdd,1234
