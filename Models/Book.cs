@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Library_Book_with_Panel.Models
 {
@@ -94,6 +95,9 @@ namespace Library_Book_with_Panel.Models
             return t;
         }
 
-
+        public string toSave()
+        {
+            return id.ToString() + "," + title + "," + author + "," + genre + "," + year.ToString();
+        }
     }
 }

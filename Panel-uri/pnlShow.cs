@@ -16,7 +16,8 @@ namespace Library_Book_with_Panel.Panel_uri
         private Label lblInfo;
 
         ControllerBooks controllerBooks;
-        public pnlShow()
+        Form1 form;
+        public pnlShow(Form1 a)
         {
             this.controllerBooks = new ControllerBooks();
 
@@ -48,16 +49,28 @@ namespace Library_Book_with_Panel.Panel_uri
             this.lblInfo.AutoSize = true;
             this.lblInfo.Location = new System.Drawing.Point(32, 0);
 
-
-
-
-
-
-
-
+            this.lstBooks.SelectedIndexChanged += new EventHandler(lstBooks_SelectedIndexChanged);
+            form = a;
         }
 
+        private void lstBooks_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.form.removePnl("pnlUpdate");
 
+            if (lstBooks.SelectedItems.Count > 0)
+            {
+
+
+                String selected = lstBooks.SelectedItems[0].Text;
+
+                string nume = selected;
+                int id = controllerBooks.getIdByNume(nume);
+
+                this.form.removePnl("pnlShow");
+                this.form.Controls.Add(new pnlUpdate(form,id));
+            }
+
+        }
 
     }
 }
